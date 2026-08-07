@@ -104,6 +104,7 @@ export default function Hero() {
               radius={70}
               fontSize="12px"
               className="drop-shadow-lg"
+              color="#FD7067"
             />
             <div className="absolute w-13 h-13   flex items-center rounded-full justify-center text-white shadow-lg overflow-hidden">
               <Image

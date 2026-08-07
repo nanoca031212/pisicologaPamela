@@ -7,9 +7,10 @@ interface CircularTextProps {
   radius?: number;
   fontSize?: string;
   className?: string;
+  color?: string;
 }
 
-export default function CircularText({ text, radius = 60, fontSize = "14px", className = "" }: CircularTextProps) {
+export default function CircularText({ text, radius = 60, fontSize = "14px", className = "", color }: CircularTextProps) {
   // Repeating text to ensure it fills the circle
   const repeatedText = `${text} • ${text} • ${text} • `.toUpperCase();
 
@@ -26,7 +27,10 @@ export default function CircularText({ text, radius = 60, fontSize = "14px", cla
           d="M 100, 100 m -80, 0 a 80, 80 0 1, 1 160, 0 a 80, 80 0 1, 1 -160, 0"
           fill="transparent"
         />
-        <text style={{ fontSize, fontWeight: "bold", letterSpacing: "2px" }} className="fill-primary italic">
+        <text
+          style={{ fontSize, fontWeight: "bold", letterSpacing: "2px", fill: color }}
+          className={`italic ${color ? "" : "fill-primary"}`}
+        >
           <textPath href="#circlePath" startOffset="0">
             {repeatedText}
           </textPath>
