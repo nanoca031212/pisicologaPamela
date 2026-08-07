@@ -12,7 +12,7 @@ export default function Hero() {
     <section className="relative min-h-screen   flex flex-col justify-between overflow-hidden bg-background-soft">
       {/* Background image (desktop only) */}
       <Image
-        src="/background1.png"
+        src="/Background1.png"
         alt=""
         fill
         priority
@@ -32,8 +32,7 @@ export default function Hero() {
           </span>
           <h1 className="text-4xl md:text-7xl font-serif font-bold leading-[1.1] text-text-main mb-6">
             Acolhimento e{" "}
-            <span className="text-primary italic">orientação</span> para
-            você.
+            <span className="text-primary italic">orientação</span> para você.
           </h1>
           <p className="text-base md:text-xl text-text-muted mb-8 max-w-lg leading-relaxed">
             Atendimento psicológico com a Dra. Pamela para pais, mulheres e
