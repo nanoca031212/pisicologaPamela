@@ -15,9 +15,9 @@ import CtaButton from "./CtaButton";
 const benefits = [
   {
     icon: Puzzle,
-    title: "Avaliação Neuropsicológica e Neuropedagógica",
+    title: "Avaliação",
     description:
-      "Avaliação das funções cognitivas e do processo de aprendizagem, para identificar a origem das dificuldades do seu filho.",
+      "Avaliação neuropsicopedagógica e avaliação psicológica, para identificar a origem das dificuldades do seu filho.",
     barColor: "bg-primary/80",
   },
   {
