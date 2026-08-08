@@ -60,7 +60,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="bg-primary text-white px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-primary/90 transition-all shadow-md hover:shadow-lg active:scale-95"
           >
-            Agendar Sessão
+            Agendar Avaliação
           </a>
         </div>
 
@@ -102,7 +102,7 @@ export default function Navbar() {
                 className="bg-primary text-white px-6 py-4 rounded-xl text-center font-bold shadow-lg active:scale-[0.98] transition-all"
                 onClick={() => setIsOpen(false)}
               >
-                Agendar Sessão
+                Agendar Avaliação
               </a>
             </div>
           </motion.div>

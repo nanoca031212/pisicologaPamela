@@ -14,21 +14,27 @@ import CtaButton from "./CtaButton";
 
 const benefits = [
   {
-    icon: MessageCircle,
-    title: "Psicoterapia para Adultos",
-    description:
-      "Acompanhamento psicoterapêutico individual para adultos que buscam avaliação, orientação profissional e autoconhecimento.",
-  },
-  {
     icon: Puzzle,
-    title: "Avaliação Psicológica",
+    title: "Avaliação Neuropsicológica e Neuropedagógica",
     description:
-      "Avaliação psicológica de aprendizagem e comportamental, com laudo e orientação clara para você ou sua família.",
+      "Avaliação das funções cognitivas e do processo de aprendizagem, para identificar a origem das dificuldades do seu filho.",
   },
   {
     icon: Brain,
     title: "TDAH e TEA",
-    description: "Avaliação e intervenção especializada em TDAH e TEA, em crianças e adultos.",
+    description: "Avaliação e intervenção especializada em TDAH e TEA, em crianças e adolescentes.",
+  },
+  {
+    icon: MessageCircle,
+    title: "Orientação Parental",
+    description:
+      "Sessões dedicadas a você, com estratégias práticas para lidar com rotina, limites e comportamento no dia a dia — sem depender só da terapia da criança.",
+  },
+  {
+    icon: HeartHandshake,
+    title: "Atendimento Infantil",
+    description:
+      "Psicoterapia individual com a criança, em linguagem lúdica e adequada à idade, para trabalhar emoções, comportamento e desenvolvimento.",
   },
   {
     icon: Sprout,
@@ -39,13 +45,7 @@ const benefits = [
     icon: BookOpen,
     title: "Intervenção e Adaptação Escolar",
     description:
-      "Recursos de intervenção e adaptação escolar para apoiar o desempenho e o bem-estar do estudante.",
-  },
-  {
-    icon: HeartHandshake,
-    title: "Mulheres Atípicas",
-    description:
-      "Acolhimento psicológico para mulheres neurodivergentes, com escuta atenta às suas particularidades e ao diagnóstico tardio.",
+      "Recursos de intervenção e adaptação escolar para apoiar o desempenho e o bem-estar do seu filho.",
   },
 ];
 
@@ -63,15 +63,14 @@ export default function Benefits() {
         <div className="text-center max-w-4xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-serif font-bold text-text-main mb-8 leading-tight">
             Ao entrar no{" "}
-            <span className="text-primary italic">acompanhamento individual</span>,
-            você não recebe apenas sessões.
+            <span className="text-primary italic">acompanhamento do seu filho</span>,
+            você não recebe apenas um laudo.
           </h2>
           <p className="text-text-muted text-lg max-w-2xl mx-auto">
-            Você inicia um processo real de acolhimento e desenvolvimento,
-            seja para buscar avaliação e orientação profissional, apoiar o
-            crescimento do seu filho, superar dificuldades de aprendizagem
-            ou se reconstruir após uma situação de violência, com suporte,
-            orientação e cuidado contínuo.
+            Você inicia um processo real de entendimento e desenvolvimento —
+            para descobrir o que está por trás das dificuldades do seu
+            filho, ter clareza sobre os próximos passos e saber exatamente
+            como ajudar, com suporte, orientação e cuidado contínuo.
           </p>
         </div>
 
@@ -106,7 +105,8 @@ export default function Benefits() {
         <div className="mt-20 text-center max-w-2xl mx-auto space-y-12">
           <p className="text-xl font-bold text-text-main">
             E, acima de tudo, você terá o suporte da Dra. Pamela, que
-            entende cada etapa desse processo e caminha junto com você.
+            entende cada etapa desse processo e caminha junto com você e
+            seu filho.
           </p>
         </div>
       </div>

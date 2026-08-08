@@ -29,8 +29,8 @@ export default function ProblemSection() {
                     </span>
                   </div>
                   <Image
-                    src="/retangulomenor.jpg"
-                    alt="Acolhimento psicológico"
+                    src="/crian/crianca-desamparo.png"
+                    alt="Criança triste, sentimento de desamparo"
                     fill
                     className="object-cover"
                   />
@@ -44,8 +44,8 @@ export default function ProblemSection() {
                   className="w-full aspect-[1.2/1] bg-primary/10 rounded-3xl overflow-hidden relative"
                 >
                   <Image
-                    src="/quadrado.jpg"
-                    alt="Desenvolvimento infantil"
+                    src="/crian/crianca-escola.png"
+                    alt="Criança com dificuldade de aprendizagem na escola"
                     fill
                     className="object-cover"
                   />
@@ -61,8 +61,8 @@ export default function ProblemSection() {
                   className="w-full aspect-[1.5/1] bg-primary/15 rounded-3xl overflow-hidden relative"
                 >
                   <Image
-                    src="/retanguloDeitado.jpg"
-                    alt="Apoio psicológico e bem-estar"
+                    src="/crian/crianca-parquinho.png"
+                    alt="Criança sozinha no parquinho, isolamento"
                     fill
                     className="object-cover"
                   />
@@ -76,8 +76,8 @@ export default function ProblemSection() {
                   className="w-full aspect-[4/6] bg-primary/25 rounded-3xl overflow-hidden relative"
                 >
                   <Image
-                    src="/retangulo.jpg"
-                    alt="Escuta e cuidado psicológico"
+                    src="/crian/crianca-alegria.png"
+                    alt="Criança feliz e acolhida no acompanhamento psicológico"
                     fill
                     className="object-cover"
                   />
@@ -96,7 +96,7 @@ export default function ProblemSection() {
             >
               Já tentou de tudo e{" "}
               <span className="text-primary italic">
-                ainda sente que falta uma peça?
+                ainda sente que falta uma peça no seu filho?
               </span>
             </motion.h2>
 
@@ -107,9 +107,9 @@ export default function ProblemSection() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.1 }}
               >
-                Você busca uma avaliação psicológica ou uma orientação
-                profissional para tomar decisões mais claras sobre a sua
-                vida, mas ainda não encontrou o espaço certo para isso.
+                Você percebe dificuldades de atenção, comportamento ou
+                aprendizagem no seu filho, mas ainda não entendeu o que está
+                por trás disso.
               </motion.p>
 
               <motion.p
@@ -118,10 +118,9 @@ export default function ProblemSection() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.15 }}
               >
-                Ou percebe dificuldades de atenção, comportamento ou
-                aprendizagem no seu filho, mas ainda não entendeu o que está
-                por trás — ou já ouviu muitos diagnósticos sem receber uma
-                orientação clara.
+                Ou já ouviu muitos diagnósticos, palpites da escola e "é só
+                fase", mas nunca recebeu uma orientação clara sobre o que
+                fazer de verdade.
               </motion.p>
 
               <motion.p
@@ -130,9 +129,10 @@ export default function ProblemSection() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.2 }}
               >
-                Ou talvez você esteja enfrentando sozinha as marcas de um
-                relacionamento abusivo e sinta que precisa de um espaço
-                seguro para se reconstruir.
+                Ou sente que já pesquisou, conversou com a escola, mudou a
+                rotina — e mesmo assim carrega a sensação de estar sozinho
+                nessa jornada, sem saber se está fazendo a coisa certa pelo
+                seu filho.
               </motion.p>
             </div>
 
@@ -145,9 +145,9 @@ export default function ProblemSection() {
             >
               Então, o meu{" "}
               <span className="text-primary italic">
-                acompanhamento psicológico individualizado
+                acompanhamento psicológico infantojuvenil
               </span>{" "}
-              é para você.
+              é para você e seu filho.
             </motion.p>
             <a
               href="https://wa.me/554789153163"
@@ -158,7 +158,7 @@ export default function ProblemSection() {
               {" "}
               <span className="flex-1 font-bold text-base md:text-center">
                 {" "}
-                AGENDAR MINHA CONSULTA{" "}
+                AGENDAR AVALIAÇÃO{" "}
               </span>{" "}
               <div className="md:w-10 md:h-10 h-8 w-8 bg-white rounded-full flex items-center justify-center text-primary group-hover:rotate-45 transition-transform duration-300">
                 {" "}

@@ -6,12 +6,12 @@ import { ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    q: "Como funciona o acompanhamento psicológico individual?",
-    a: "É um acompanhamento próximo com a Dra. Pamela, com sessões periódicas e suporte via WhatsApp para orientações e dúvidas — seja para o seu próprio processo de avaliação e orientação, seja para apoiar o desenvolvimento do seu filho."
+    q: "Como funciona o acompanhamento psicológico do meu filho?",
+    a: "É um acompanhamento próximo com a Dra. Pamela: sessões periódicas, devolutiva clara sobre o que está por trás das dificuldades e suporte via WhatsApp para orientar você no dia a dia."
   },
   {
-    q: "Fazem avaliação psicológica para orientação profissional?",
-    a: "Sim. A Dra. Pamela realiza avaliação psicológica de aprendizagem e comportamental, com laudo e orientação clara para adultos que buscam direção profissional ou pessoal."
+    q: "Fazem avaliação psicológica de aprendizagem e comportamento?",
+    a: "Sim. A Dra. Pamela realiza avaliação psicológica de aprendizagem e comportamental, com laudo e orientação clara para você entender e apoiar o desenvolvimento do seu filho."
   },
   {
     q: "Atendem crianças e adolescentes com TDAH e TEA?",
@@ -22,12 +22,12 @@ const faqs = [
     a: "Não é obrigatório. Podemos ajudar a identificar sinais e, se necessário, encaminhar para avaliação multidisciplinar complementar."
   },
   {
-    q: "O atendimento para mulheres em situação de violência é sigiloso?",
-    a: "Sim, totalmente. Todo o acompanhamento segue rigoroso sigilo profissional, em um espaço seguro e sem julgamentos."
+    q: "A partir de que idade posso levar meu filho?",
+    a: "Atendemos desde a primeira infância até a adolescência, com abordagem e recursos adaptados a cada fase do desenvolvimento."
   },
   {
     q: "Atende online ou presencial?",
-    a: "Atualmente os atendimentos são 100% online, permitindo que a Dra. Pamela atenda pacientes de todo o Brasil com a mesma qualidade e comodidade."
+    a: "Atualmente os atendimentos são 100% online, permitindo que a Dra. Pamela atenda famílias de todo o Brasil com a mesma qualidade e comodidade."
   }
 ];
 

@@ -10,8 +10,8 @@ export default function Footer() {
       <div className="container mx-auto px-6 md:px-20 lg:px-32">
         <div className="flex flex-col items-center text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-serif font-bold mb-8">
-            Pronto para dar o{" "}
-            <span className="text-primary italic">próximo passo?</span>
+            Pronto para entender{" "}
+            <span className="text-primary italic">o que seu filho precisa?</span>
           </h2>
           <a
             href="https://wa.me/554789153163"
@@ -19,7 +19,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="bg-white text-dark-accent px-10 py-5 rounded-full text-xl font-bold hover:bg-primary hover:text-white transition-all shadow-2xl active:scale-95"
           >
-            Agendar minha sessão agora
+            Agendar avaliação agora
           </a>
         </div>
 
@@ -35,10 +35,10 @@ export default function Footer() {
               />
             </div>
             <p className="text-white/60 max-w-sm mb-8 leading-relaxed">
-              Dra. Pamela, psicóloga especializada em avaliação e orientação
-              profissional para pais, mulheres e adultos, além de psicoterapia
-              infantojuvenil e adulto, avaliação psicológica de aprendizagem e
-              comportamental, e recursos de intervenção e adaptação escolar.
+              Dra. Pamela, psicóloga especializada em avaliação psicológica
+              infantojuvenil, TDAH, TEA, dificuldades de aprendizagem e
+              comportamento, com orientação clara e próxima para pais que
+              querem entender e ajudar seus filhos.
             </p>
             <div className="flex gap-4">
               {[Instagram, Facebook, Linkedin].map((Icon, i) => (
@@ -88,7 +88,7 @@ export default function Footer() {
             <ul className="space-y-4 text-white/60">
               <li>contato@pamela.com.br</li>
               <li>(47) 98915-3163</li>
-              <li>Atendimento Presencial e Online</li>
+              <li>Atendimento 100% Online</li>
             </ul>
           </div>
         </div>

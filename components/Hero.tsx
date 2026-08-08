@@ -12,7 +12,7 @@ export default function Hero() {
     <section className="relative min-h-screen   flex flex-col justify-between overflow-hidden bg-background-soft">
       {/* Background image (desktop only) */}
       <Image
-        src="/Background1.png"
+        src="/background3.svg"
         alt=""
         fill
         priority
@@ -28,15 +28,16 @@ export default function Hero() {
           className=""
         >
           <span className="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary text-[10px] md:text-xs font-bold tracking-wider uppercase mb-2  mt-8">
-            Psicologia com a Dra. Pamela
+            Psicologia Infantil com a Dra. Pamela
           </span>
           <h1 className="text-4xl md:text-7xl font-serif font-bold leading-[1.1] text-text-main mb-6">
-            Acolhimento e{" "}
-            <span className="text-primary italic">orientação</span> para você.
+            Entenda o que <span className="text-primary italic">seu filho</span>{" "}
+            precisa.
           </h1>
           <p className="text-base md:text-xl text-text-muted mb-8 max-w-lg leading-relaxed">
-            Atendimento psicológico com a Dra. Pamela para pais, mulheres e
-            adultos em busca de avaliação e orientação profissional.
+            Avaliação e acompanhamento psicológico infantojuvenil com a Dra.
+            Pamela, para você entender o comportamento, a aprendizagem e o
+            desenvolvimento do seu filho — com direção clara para agir.
           </p>
 
           <a
@@ -48,7 +49,7 @@ export default function Hero() {
             {" "}
             <span className="flex-1 font-bold text-base md:text-center">
               {" "}
-              AGENDAR MINHA SESSÃO{" "}
+              AGENDAR AVALIAÇÃO{" "}
             </span>{" "}
             <div className="md:w-10 md:h-10 h-8 w-8 bg-white rounded-full flex items-center justify-center text-primary group-hover:rotate-45 transition-transform duration-300">
               {" "}
@@ -70,8 +71,8 @@ export default function Hero() {
               ))}
             </div>
             <p className="text-sm text-text-muted font-medium">
-              <span className="font-bold text-text-main">+500 pacientes</span> e
-              famílias acompanhados este ano
+              <span className="font-bold text-text-main">+500 famílias</span>{" "}
+              acompanhadas este ano
             </p>
           </div>
         </motion.div>
@@ -83,7 +84,7 @@ export default function Hero() {
           className="relative mt-4 md:mt-0 md:min-h-[500px]"
         >
           <Image
-            src="/Mobilefoto.jpeg"
+            src="/ImagemPsico.jpeg"
             alt="Psicóloga sorrindo"
             width={600}
             height={700}
@@ -141,7 +142,7 @@ export default function Hero() {
             </div>
             <div>
               <p className="text-xs text-text-muted uppercase font-bold tracking-wider">
-                Psicologia
+                Psicologia Infantil
               </p>
               <p className="text-sm font-bold text-text-main">
                 Baseada em Evidências
@@ -151,7 +152,7 @@ export default function Hero() {
         </motion.div>
       </div>
       <div className="absolute bottom-0 left-0 w-full z-20">
-        <Marquee text="DRA. PAMELA" />
+        <Marquee text="DRA. PAMELA — PSICOLOGIA INFANTIL" />
       </div>
     </section>
   );

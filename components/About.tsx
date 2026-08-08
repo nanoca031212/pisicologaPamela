@@ -16,7 +16,7 @@ export default function About() {
           >
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl skew-y-2 hover:skew-y-0 transition-transform duration-700">
               <Image
-                src="/ImagemPsico.jpeg"
+                src="/Mobilefoto.jpeg"
                 alt="Dra. Pamela"
                 width={500}
                 height={600}
@@ -42,16 +42,18 @@ export default function About() {
             </h2>
             <div className="space-y-6 text-text-muted text-lg leading-relaxed">
               <p>
-                Sou psicóloga especializada em avaliação e orientação
-                profissional para pais, mulheres e adultos que buscam mais
-                clareza sobre suas próximas etapas de vida.
+                Sou psicóloga especializada em avaliação e acompanhamento
+                psicológico infantojuvenil, com foco em ajudar pais a
+                entenderem o que está por trás das dificuldades de atenção,
+                comportamento e aprendizagem dos filhos.
               </p>
               <p>
-                Também realizo psicoterapia infantojuvenil e para adultos,
-                avaliação psicológica de aprendizagem e comportamental, além
-                de oferecer recursos de intervenção e adaptação escolar,
-                unindo psicologia clínica baseada em evidências a um
-                acompanhamento próximo, humano e sem julgamentos.
+                Realizo avaliação psicológica de aprendizagem e
+                comportamental, com foco especial em TDAH e TEA, além de
+                oferecer recursos de intervenção e adaptação escolar —
+                unindo psicologia clínica baseada em evidências a uma
+                orientação próxima, humana e sem julgamentos para toda a
+                família.
               </p>
               <p className="font-medium text-text-main">
                 Acredito que todo processo de cuidado começa com escuta,

@@ -13,9 +13,9 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Dra. Pamela | Psicóloga - Avaliação e Orientação para Pais, Mulheres e Adultos",
+  title: "Dra. Pamela | Psicóloga Infantil - Avaliação de TDAH, TEA e Desenvolvimento Infantil",
   description:
-    "Atendimento psicológico com a Dra. Pamela: avaliação e orientação profissional para pais, mulheres e adultos, psicoterapia infantojuvenil e adulto, avaliação psicológica de aprendizagem e comportamental, e recursos de intervenção e adaptação escolar. Agende sua sessão.",
+    "Atendimento psicológico infantojuvenil com a Dra. Pamela: avaliação psicológica de aprendizagem e comportamento, TDAH, TEA, psicoterapia infantojuvenil e orientação prática para pais entenderem e ajudarem seus filhos. Agende uma avaliação.",
 };
 
 export default function RootLayout({
