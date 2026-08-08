@@ -15,39 +15,39 @@ import CtaButton from "./CtaButton";
 const benefits = [
   {
     icon: MessageCircle,
-    title: "Psicoterapia para Adultos",
+    title: "Acompanhamento Terapêutico",
     description:
-      "Acompanhamento psicoterapêutico individual para adultos que buscam avaliação, orientação profissional e autoconhecimento.",
+      "Psicoterapia individual para mulheres adultas que buscam autoconhecimento, equilíbrio emocional e qualidade de vida.",
   },
   {
     icon: Puzzle,
     title: "Avaliação Psicológica",
     description:
-      "Avaliação psicológica de aprendizagem e comportamental, com laudo e orientação clara para você ou sua família.",
+      "Avaliação psicológica completa, com devolutiva e orientação clara para você entender melhor a si mesma.",
   },
   {
     icon: Brain,
-    title: "TDAH e TEA",
+    title: "Ansiedade e Sobrecarga",
     description:
-      "Avaliação e intervenção especializada em TDAH e TEA, em crianças e adultos.",
-  },
-  {
-    icon: Sprout,
-    title: "Psicoterapia Infantojuvenil",
-    description:
-      "Acompanhamento psicológico para crianças e adolescentes em cada fase do desenvolvimento.",
-  },
-  {
-    icon: BookOpen,
-    title: "Intervenção e Adaptação Escolar",
-    description:
-      "Recursos de intervenção e adaptação escolar para apoiar o desempenho e o bem-estar do estudante.",
+      "Cuidado especializado para lidar com ansiedade, estresse e sobrecarga emocional do dia a dia.",
   },
   {
     icon: HeartHandshake,
-    title: "Mulheres Atípicas",
+    title: "Autoestima e Relacionamentos",
     description:
-      "Acolhimento psicológico para mulheres neurodivergentes, com escuta atenta às suas particularidades e ao diagnóstico tardio.",
+      "Espaço de escuta para trabalhar autoestima, limites e relacionamentos mais saudáveis, sem julgamentos.",
+  },
+  {
+    icon: Sprout,
+    title: "Transições de Vida",
+    description:
+      "Apoio psicológico em momentos de mudança: carreira, maternidade, luto ou reinvenção pessoal.",
+  },
+  {
+    icon: BookOpen,
+    title: "Orientação Profissional e Pessoal",
+    description:
+      "Avaliação e orientação para você tomar decisões mais claras sobre os próximos passos da sua vida.",
   },
 ];
 
@@ -71,11 +71,10 @@ export default function Benefits() {
             , você não recebe apenas sessões.
           </h2>
           <p className="text-text-muted text-lg max-w-2xl mx-auto">
-            Você inicia um processo real de acolhimento e desenvolvimento, seja
-            para buscar avaliação e orientação profissional, apoiar o
-            crescimento do seu filho, superar dificuldades de aprendizagem ou se
-            reconstruir após uma situação de violência, com suporte, orientação
-            e cuidado contínuo.
+            Você inicia um processo real de acolhimento e autoconhecimento,
+            seja para buscar avaliação psicológica, superar a ansiedade do dia
+            a dia, fortalecer sua autoestima ou se reconstruir em um novo
+            momento da vida, com suporte, orientação e cuidado contínuo.
           </p>
         </div>
 

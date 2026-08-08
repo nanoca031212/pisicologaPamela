@@ -6,24 +6,24 @@ import { ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    q: "Como funciona o acompanhamento psicológico individual?",
-    a: "É um acompanhamento próximo com a Dra. Pamela, com sessões periódicas e suporte via WhatsApp para orientações e dúvidas — seja para o seu próprio processo de avaliação e orientação, seja para apoiar o desenvolvimento do seu filho."
+    q: "Como funciona o acompanhamento terapêutico?",
+    a: "É um acompanhamento próximo e individualizado com a Dra. Pamela, com sessões periódicas e suporte para as suas questões e objetivos, em um espaço de escuta e acolhimento."
   },
   {
-    q: "Fazem avaliação psicológica para orientação profissional?",
-    a: "Sim. A Dra. Pamela realiza avaliação psicológica de aprendizagem e comportamental, com laudo e orientação clara para adultos que buscam direção profissional ou pessoal."
+    q: "Fazem avaliação psicológica?",
+    a: "Sim. A Dra. Pamela realiza avaliação psicológica completa, com devolutiva e orientação clara para você entender melhor a si mesma e suas próximas etapas."
   },
   {
-    q: "Atendem crianças e adolescentes com TDAH e TEA?",
-    a: "Sim. Realizamos avaliação e intervenção especializada para TDAH e TEA, com estratégias individualizadas para cada criança e orientação para a família, além de recursos de adaptação escolar."
+    q: "Para quem é indicado o acompanhamento?",
+    a: "Para mulheres adultas que buscam autoconhecimento, apoio emocional, orientação profissional ou pessoal, ou que estão passando por momentos de ansiedade, sobrecarga ou transição de vida."
   },
   {
-    q: "Preciso de um laudo médico antes de iniciar?",
-    a: "Não é obrigatório. Podemos ajudar a identificar sinais e, se necessário, encaminhar para avaliação multidisciplinar complementar."
+    q: "Preciso de um diagnóstico antes de iniciar?",
+    a: "Não. Você pode começar o acompanhamento mesmo sem um diagnóstico prévio; juntas identificamos o que faz mais sentido para o seu processo."
   },
   {
-    q: "O atendimento para mulheres em situação de violência é sigiloso?",
-    a: "Sim, totalmente. Todo o acompanhamento segue rigoroso sigilo profissional, em um espaço seguro e sem julgamentos."
+    q: "O atendimento é sigiloso?",
+    a: "Sim, totalmente. Todo o acompanhamento segue rigoroso sigilo profissional, em um espaço seguro, ético e sem julgamentos."
   },
   {
     q: "Atende online ou presencial?",

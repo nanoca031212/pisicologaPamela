@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { Instagram, Facebook, Linkedin } from "lucide-react";
+import { Instagram } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -14,7 +14,7 @@ export default function Footer() {
             <span className="text-primary italic">próximo passo?</span>
           </h2>
           <a
-            href="https://wa.me/554789153163"
+            href="https://wa.me/5547991284636"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white text-dark-accent px-10 py-5 rounded-full text-xl font-bold hover:bg-primary hover:text-white transition-all shadow-2xl active:scale-95"
@@ -35,21 +35,19 @@ export default function Footer() {
               />
             </div>
             <p className="text-white/60 max-w-sm mb-8 leading-relaxed">
-              Dra. Pamela, psicóloga especializada em avaliação e orientação
-              profissional para pais, mulheres e adultos, além de psicoterapia
-              infantojuvenil e adulto, avaliação psicológica de aprendizagem e
-              comportamental, e recursos de intervenção e adaptação escolar.
+              Dra. Pamela, psicóloga especializada no atendimento a mulheres
+              adultas, com foco em avaliação psicológica, acompanhamento
+              terapêutico e acolhimento humanizado.
             </p>
             <div className="flex gap-4">
-              {[Instagram, Facebook, Linkedin].map((Icon, i) => (
-                <a
-                  key={i}
-                  href="#"
-                  className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-primary transition-colors"
-                >
-                  <Icon className="w-5 h-5" />
-                </a>
-              ))}
+              <a
+                href="https://www.instagram.com/papodegrega?igsh=N3RlcXVrNWpidjh3"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-primary transition-colors"
+              >
+                <Instagram className="w-5 h-5" />
+              </a>
             </div>
           </div>
 
@@ -69,7 +67,7 @@ export default function Footer() {
                   href="#jornada"
                   className="hover:text-primary transition-colors"
                 >
-                  Especialidades
+                  Serviços
                 </Link>
               </li>
               <li>
@@ -87,7 +85,7 @@ export default function Footer() {
             <h4 className="font-bold mb-6">Contato</h4>
             <ul className="space-y-4 text-white/60">
               <li>contato@pamela.com.br</li>
-              <li>(47) 98915-3163</li>
+              <li>(47) 99128-4636</li>
               <li>Atendimento Presencial e Online</li>
             </ul>
           </div>

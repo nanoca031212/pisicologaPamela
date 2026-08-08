@@ -31,16 +31,17 @@ export default function Hero() {
             Psicologia com a Dra. Pamela
           </span>
           <h1 className="text-4xl md:text-7xl font-serif font-bold leading-[1.1] text-text-main mb-6">
-            Acolhimento e{" "}
-            <span className="text-primary italic">orientação</span> para você.
+            Sua força também merece{" "}
+            <span className="text-primary italic">um lugar de escuta</span>.
           </h1>
           <p className="text-base md:text-xl text-text-muted mb-8 max-w-lg leading-relaxed">
-            Atendimento psicológico com a Dra. Pamela para pais, mulheres e
-            adultos em busca de avaliação e orientação profissional.
+            Atendimento psicológico com a Dra. Pamela: avaliação psicológica
+            e acompanhamento terapêutico em um espaço seguro, humano e sem
+            julgamentos.
           </p>
 
           <a
-            href="https://wa.me/554789153163"
+            href="https://wa.me/5547991284636"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative mt-6 px-4 w-full max-w-md md:px-4 py-3 flex items-center justify-between bg-gradient-to-r from-[#707759] via-primary to-[#12130D] rounded-full text-white font-bold text-sm tracking-widest uppercase shadow-xl hover:shadow-2xl transition-all active:scale-[1.0]"
@@ -70,8 +71,8 @@ export default function Hero() {
               ))}
             </div>
             <p className="text-sm text-text-muted font-medium">
-              <span className="font-bold text-text-main">+200 pacientes</span> e
-              famílias acompanhados este ano
+              <span className="font-bold text-text-main">+200 mulheres</span>{" "}
+              acompanhadas este ano
             </p>
           </div>
         </motion.div>

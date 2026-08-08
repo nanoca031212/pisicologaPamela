@@ -45,7 +45,7 @@ export default function ProblemSection() {
                 >
                   <Image
                     src="/quadrado.jpg"
-                    alt="Desenvolvimento infantil"
+                    alt="Autoconhecimento e bem-estar feminino"
                     fill
                     className="object-cover"
                   />
@@ -118,10 +118,9 @@ export default function ProblemSection() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.15 }}
               >
-                Ou percebe dificuldades de atenção, comportamento ou
-                aprendizagem no seu filho, mas ainda não entendeu o que está
-                por trás — ou já ouviu muitos diagnósticos sem receber uma
-                orientação clara.
+                Ou sente uma ansiedade e uma sobrecarga emocional constantes,
+                mas nunca encontrou um espaço só seu para entender o que está
+                por trás disso.
               </motion.p>
 
               <motion.p
@@ -130,9 +129,9 @@ export default function ProblemSection() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.2 }}
               >
-                Ou talvez você esteja enfrentando sozinha as marcas de um
-                relacionamento abusivo e sinta que precisa de um espaço
-                seguro para se reconstruir.
+                Ou talvez esteja vivendo uma fase de transição — profissional,
+                pessoal ou emocional — e sinta que precisa de um espaço
+                seguro para se reconstruir e se reencontrar.
               </motion.p>
             </div>
 
@@ -150,7 +149,7 @@ export default function ProblemSection() {
               é para você.
             </motion.p>
             <a
-              href="https://wa.me/554789153163"
+              href="https://wa.me/5547991284636"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative mt-6 px-4 w-full max-w-md md:px-4 py-3 flex items-center justify-between bg-gradient-to-r from-[#707759] via-primary to-[#12130D] rounded-full text-white font-bold text-sm tracking-widest uppercase shadow-xl hover:shadow-2xl transition-all active:scale-[1.0]"

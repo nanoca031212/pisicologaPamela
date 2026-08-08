@@ -42,16 +42,16 @@ export default function About() {
             </h2>
             <div className="space-y-6 text-text-muted text-lg leading-relaxed">
               <p>
-                Sou psicóloga especializada em avaliação e orientação
-                profissional para pais, mulheres e adultos que buscam mais
-                clareza sobre suas próximas etapas de vida.
+                Sou psicóloga especializada no atendimento a mulheres adultas,
+                com foco em avaliação psicológica e acompanhamento
+                terapêutico para quem busca mais clareza, equilíbrio e
+                autoconhecimento.
               </p>
               <p>
-                Também realizo psicoterapia infantojuvenil e para adultos,
-                avaliação psicológica de aprendizagem e comportamental, além
-                de oferecer recursos de intervenção e adaptação escolar,
-                unindo psicologia clínica baseada em evidências a um
-                acompanhamento próximo, humano e sem julgamentos.
+                Meu trabalho une psicologia clínica baseada em evidências a
+                uma escuta próxima, humana e sem julgamentos, criando um
+                espaço seguro para você se expressar, entender suas questões
+                e construir novos caminhos.
               </p>
               <p className="font-medium text-text-main">
                 Acredito que todo processo de cuidado começa com escuta,
