@@ -18,34 +18,40 @@ const benefits = [
     title: "Avaliação Neuropsicológica e Neuropedagógica",
     description:
       "Avaliação das funções cognitivas e do processo de aprendizagem, para identificar a origem das dificuldades do seu filho.",
+    barColor: "bg-primary/80",
   },
   {
     icon: Brain,
     title: "TDAH e TEA",
     description: "Avaliação e intervenção especializada em TDAH e TEA, em crianças e adolescentes.",
+    barColor: "bg-salmon/80",
   },
   {
     icon: MessageCircle,
     title: "Orientação Parental",
     description:
       "Sessões dedicadas a você, com estratégias práticas para lidar com rotina, limites e comportamento no dia a dia — sem depender só da terapia da criança.",
+    barColor: "bg-yellow",
   },
   {
     icon: HeartHandshake,
     title: "Atendimento Infantil",
     description:
       "Psicoterapia individual com a criança, em linguagem lúdica e adequada à idade, para trabalhar emoções, comportamento e desenvolvimento.",
+    barColor: "bg-salmon/80",
   },
   {
     icon: Sprout,
     title: "Psicoterapia Infantojuvenil",
     description: "Acompanhamento psicológico para crianças e adolescentes em cada fase do desenvolvimento.",
+    barColor: "bg-primary/80",
   },
   {
     icon: BookOpen,
     title: "Intervenção e Adaptação Escolar",
     description:
       "Recursos de intervenção e adaptação escolar para apoiar o desempenho e o bem-estar do seu filho.",
+    barColor: "bg-yellow",
   },
 ];
 
@@ -85,10 +91,10 @@ export default function Benefits() {
               className="group bg-white p-8 rounded-2xl shadow-sm border border-zinc-100 flex flex-col relative overflow-hidden h-full"
             >
               {/* Top Accent Line */}
-              <div className="absolute top-0 left-8 w-12 h-1.5 bg-primary/80 rounded-b-full group-hover:w-full group-hover:left-0 group-hover:rounded-none transition-all duration-300" />
+              <div className={`absolute top-0 left-8 w-12 h-1.5 ${benefit.barColor} rounded-b-full group-hover:w-full group-hover:left-0 group-hover:rounded-none transition-all duration-300`} />
 
-              <div className="w-12 h-12 bg-zinc-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary/5 transition-colors">
-                <benefit.icon className="w-6 h-6 text-primary/70 group-hover:text-primary transition-colors" />
+              <div className="w-12 h-12 bg-zinc-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-salmon/5 transition-colors">
+                <benefit.icon className="w-6 h-6 text-salmon/70 group-hover:text-salmon transition-colors" />
               </div>
 
               <h3 className="text-xl font-bold text-text-main mb-3">

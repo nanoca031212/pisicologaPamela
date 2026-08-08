@@ -44,14 +44,14 @@ export default function Hero() {
             href="https://wa.me/554789153163"
             target="_blank"
             rel="noopener noreferrer"
-            className="group relative mt-6 px-4 w-full max-w-md md:px-4 py-3 flex items-center justify-between bg-gradient-to-r from-[#668865] via-primary to-[#1A2419] rounded-full text-white font-bold text-sm tracking-widest uppercase shadow-xl hover:shadow-2xl transition-all active:scale-[1.0]"
+            className="group relative mt-6 px-4 w-full max-w-md md:px-4 py-3 flex items-center justify-between bg-gradient-to-r from-[#5C8DF2] via-primary to-[#16294F] rounded-full text-white font-bold text-sm tracking-widest uppercase shadow-xl hover:shadow-2xl transition-all active:scale-[1.0]"
           >
             {" "}
             <span className="flex-1 font-bold text-base md:text-center">
               {" "}
               AGENDAR AVALIAÇÃO{" "}
             </span>{" "}
-            <div className="md:w-10 md:h-10 h-8 w-8 bg-white rounded-full flex items-center justify-center text-primary group-hover:rotate-45 transition-transform duration-300">
+            <div className="md:w-10 md:h-10 h-8 w-8 bg-white rounded-full flex items-center justify-center text-salmon group-hover:rotate-45 transition-transform duration-300">
               {" "}
               <ArrowUpRight className="w-4 h-4" />{" "}
             </div>{" "}
@@ -124,7 +124,7 @@ export default function Hero() {
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
             className="hidden md:flex absolute bottom-20 -left-4 md:-left-10 z-20 bg-white p-4 rounded-2xl shadow-xl items-center gap-4 border border-zinc-100"
           >
-            <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+            <div className="w-12 h-12 bg-salmon/10 rounded-full flex items-center justify-center text-salmon">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
