@@ -14,7 +14,7 @@ export default function Footer() {
             <span className="text-primary italic">o que seu filho precisa?</span>
           </h2>
           <a
-            href="https://wa.me/554789153163"
+            href="https://wa.me/5547991284636"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white text-dark-accent px-10 py-5 rounded-full text-xl font-bold hover:bg-primary hover:text-white transition-all shadow-2xl active:scale-95"
@@ -87,7 +87,7 @@ export default function Footer() {
             <h4 className="font-bold mb-6">Contato</h4>
             <ul className="space-y-4 text-white/60">
               <li>contato@pamela.com.br</li>
-              <li>(47) 98915-3163</li>
+              <li>(47) 99128-4636</li>
               <li>Atendimento 100% Online</li>
             </ul>
           </div>

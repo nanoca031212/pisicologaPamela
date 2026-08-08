@@ -107,7 +107,7 @@ export default function MethodologySection() {
             {/* CTA Button fixed relative to image as in design or just below */}
             <div className="mt-8 flex justify-center lg:justify-start">
               <a
-                href="https://wa.me/554789153163"
+                href="https://wa.me/5547991284636"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group relative px-5 w-full max-w-md gap-2 md:px-4 py-3 flex items-center justify-between bg-gradient-to-r from-[#5C8DF2] via-primary to-[#16294F] rounded-full text-white font-bold text-sm tracking-widest uppercase shadow-xl hover:shadow-2xl transition-all active:scale-[1.0]"
