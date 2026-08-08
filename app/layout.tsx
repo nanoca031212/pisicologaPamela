@@ -13,9 +13,9 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Dra. Pamela | Psicóloga - Avaliação e Orientação para Pais, Mulheres e Adultos",
+  title: "Dra. Pamela | Psicóloga - Avaliação Psicológica e Acompanhamento Terapêutico para Mulheres",
   description:
-    "Atendimento psicológico com a Dra. Pamela: avaliação e orientação profissional para pais, mulheres e adultos, psicoterapia infantojuvenil e adulto, avaliação psicológica de aprendizagem e comportamental, e recursos de intervenção e adaptação escolar. Agende sua sessão.",
+    "Atendimento psicológico com a Dra. Pamela: avaliação psicológica e acompanhamento terapêutico para mulheres adultas, em um espaço de acolhimento, escuta e cuidado humanizado. Agende sua sessão.",
 };
 
 export default function RootLayout({

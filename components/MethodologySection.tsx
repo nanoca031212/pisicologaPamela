@@ -110,7 +110,7 @@ export default function MethodologySection() {
                 href="https://wa.me/554789153163"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group relative px-5 w-full max-w-md gap-2 md:px-4 py-3 flex items-center justify-between bg-gradient-to-r from-[#668865] via-primary to-[#1A2419] rounded-full text-white font-bold text-sm tracking-widest uppercase shadow-xl hover:shadow-2xl transition-all active:scale-[1.0]"
+                className="group relative px-5 w-full max-w-md gap-2 md:px-4 py-3 flex items-center justify-between bg-gradient-to-r from-[#707759] via-primary to-[#12130D] rounded-full text-white font-bold text-sm tracking-widest uppercase shadow-xl hover:shadow-2xl transition-all active:scale-[1.0]"
               >
                 {" "}
                 <span className="flex-1 font-bold text-base md:text-center">

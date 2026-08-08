@@ -20,7 +20,7 @@ export default function Navbar() {
 
   const navLinks = [
     { href: "/", label: "Início" },
-    { href: "#jornada", label: "Especialidades" },
+    { href: "#jornada", label: "Serviços" },
     { href: "#sobre", label: "Sobre" },
   ];
 

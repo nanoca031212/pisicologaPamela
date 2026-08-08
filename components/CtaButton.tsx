@@ -10,7 +10,7 @@ interface CtaButtonProps {
 export default function CtaButton({ label, className = "" }: CtaButtonProps) {
   return (
     <button
-      className={`group relative w-full flex items-center justify-between bg-gradient-to-r from-[#668865] via-primary to-[#1A2419] rounded-full text-white font-bold shadow-xl hover:shadow-2xl transition-all active:scale-[0.98] ${className}`}
+      className={`group relative w-full flex items-center justify-between bg-gradient-to-r from-[#707759] via-primary to-[#12130D] rounded-full text-white font-bold shadow-xl hover:shadow-2xl transition-all active:scale-[0.98] ${className}`}
     >
       <span className="flex-1 text-center text-[13px] sm:text-sm md:text-base tracking-wider md:tracking-widest uppercase py-3 px-2 sm:px-4">
         {label}

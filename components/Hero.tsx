@@ -27,7 +27,7 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className=""
         >
-          <span className="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary text-[10px] md:text-xs font-bold tracking-wider uppercase mb-2  mt-8">
+          <span className="inline-block py-1 text-[#fd7067] bg-[#fd7067]/10 px-4 rounded-full   text-[10px] md:text-xs font-bold tracking-wider uppercase mb-2  mt-8">
             Psicologia com a Dra. Pamela
           </span>
           <h1 className="text-4xl md:text-7xl font-serif font-bold leading-[1.1] text-text-main mb-6">
@@ -43,7 +43,7 @@ export default function Hero() {
             href="https://wa.me/554789153163"
             target="_blank"
             rel="noopener noreferrer"
-            className="group relative mt-6 px-4 w-full max-w-md md:px-4 py-3 flex items-center justify-between bg-gradient-to-r from-[#668865] via-primary to-[#1A2419] rounded-full text-white font-bold text-sm tracking-widest uppercase shadow-xl hover:shadow-2xl transition-all active:scale-[1.0]"
+            className="group relative mt-6 px-4 w-full max-w-md md:px-4 py-3 flex items-center justify-between bg-gradient-to-r from-[#707759] via-primary to-[#12130D] rounded-full text-white font-bold text-sm tracking-widest uppercase shadow-xl hover:shadow-2xl transition-all active:scale-[1.0]"
           >
             {" "}
             <span className="flex-1 font-bold text-base md:text-center">
@@ -63,14 +63,14 @@ export default function Hero() {
                   key={i}
                   className="w-10 h-10 rounded-full border-2 border-white hover:scale-110 bg-zinc-200 overflow-hidden"
                 >
-                  <div className="w-full h-full bg-primary/20 flex items-center justify-center text-[10px] font-bold text-primary">
+                  <div className="w-full h-full bg-[#fd7067]/20 flex items-center justify-center text-[10px] font-bold text-white">
                     +{i}k
                   </div>
                 </div>
               ))}
             </div>
             <p className="text-sm text-text-muted font-medium">
-              <span className="font-bold text-text-main">+500 pacientes</span> e
+              <span className="font-bold text-text-main">+200 pacientes</span> e
               famílias acompanhados este ano
             </p>
           </div>

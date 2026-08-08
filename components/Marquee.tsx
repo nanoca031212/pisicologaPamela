@@ -12,7 +12,7 @@ export default function Marquee({ text, className = "" }: MarqueeProps) {
   const repeatedText = Array(10).fill(`${text} ✦ `).join("");
 
   return (
-    <div className={`w-full overflow-hidden bg-[#2C3529] py-4 whitespace-nowrap ${className}`}>
+    <div className={`w-full overflow-hidden bg-[#23241D] py-4 whitespace-nowrap ${className}`}>
       <motion.div
         animate={{ x: ["0%", "-50%"] }}
         transition={{
