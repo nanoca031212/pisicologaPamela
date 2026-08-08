@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { Instagram, Facebook, Linkedin } from "lucide-react";
+import { Instagram } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -11,7 +11,9 @@ export default function Footer() {
         <div className="flex flex-col items-center text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-serif font-bold mb-8">
             Pronto para entender{" "}
-            <span className="text-primary italic">o que seu filho precisa?</span>
+            <span className="text-primary italic">
+              o que seu filho precisa?
+            </span>
           </h2>
           <a
             href="https://wa.me/5547991284636"
@@ -37,19 +39,18 @@ export default function Footer() {
             <p className="text-white/60 max-w-sm mb-8 leading-relaxed">
               Dra. Pamela, psicóloga especializada em avaliação psicológica
               infantojuvenil, TDAH, TEA, dificuldades de aprendizagem e
-              comportamento, com orientação clara e próxima para pais que
-              querem entender e ajudar seus filhos.
+              comportamento, com orientação clara e próxima para pais que querem
+              entender e ajudar seus filhos.
             </p>
             <div className="flex gap-4">
-              {[Instagram, Facebook, Linkedin].map((Icon, i) => (
-                <a
-                  key={i}
-                  href="#"
-                  className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-primary transition-colors"
-                >
-                  <Icon className="w-5 h-5" />
-                </a>
-              ))}
+              <a
+                href="https://www.instagram.com/npp.papadopulos?igsh=N3F2eGtkdm11eW10"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-primary transition-colors"
+              >
+                <Instagram className="w-5 h-5" />
+              </a>
             </div>
           </div>
 
@@ -86,9 +87,8 @@ export default function Footer() {
           <div>
             <h4 className="font-bold mb-6">Contato</h4>
             <ul className="space-y-4 text-white/60">
-              <li>contato@pamela.com.br</li>
+              <li>Psi.pamelapapadopulos@gmail.com</li>
               <li>(47) 99128-4636</li>
-              <li>Atendimento 100% Online</li>
             </ul>
           </div>
         </div>
